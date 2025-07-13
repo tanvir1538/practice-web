@@ -1,0 +1,47 @@
+.feedback{
+    width: 1140px;
+    margin: 140px auto;
+}
+
+.feedback h3{
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading{
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600px;
+}
+
+.need-flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.user-feed{
+    width: 360px;
+    border:1px solid #F2EDED;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+.pic img{
+    border-radius: 50%;
+}
+
+.bhitor{
+    padding: 24px;
+}
+
+.fdb2{
+    display: flex;
+    font-family: Inter;
+    margin-top: 50px;
+    /* margin:50px; */
+    gap:20px;
+}

@@ -1,0 +1,43 @@
+.users-summary {
+    background-color:rgba(78, 71, 255, 10%);
+    border-radius: 24px;
+    margin-left: 141px;
+    margin-right: 159px;
+    padding: 50px 142px;
+    max-width: 1140px;
+    text-align: center;
+    margin-top: 116px;
+  }
+  .users-summary h3 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+  }
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+
+  }
+  .s-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .s-number {
+    
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF; 
+     font-family: "Inter", sans-serif;
+    
+  }
+  
+  .s-description {
+    font-size:20px;
+    color: rgba(0,0,0,50%);
+    font-family: "Inter", sans-serif;
+}

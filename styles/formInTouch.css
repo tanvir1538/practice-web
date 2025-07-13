@@ -1,0 +1,85 @@
+main {
+    background-color: #f5f8ff;
+}
+
+
+.get-in-touch {
+    max-width: 1140px;
+    display: block;
+    margin: 0px auto;
+}
+
+.touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-sec {
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    width: 528px;
+}
+
+.form-sec input[type=text],
+input[type=email] {
+    display: block;
+    border-radius: 10px;
+    width: 497px;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #D6DDED;
+}
+
+.form-sec textarea {
+    display: block;
+    border-radius: 10px;
+    width: 465px;
+    height: 135px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #D6DDED;
+}
+
+.form-sec {
+    margin-bottom: 100px;
+    
+}
+
+
+
+.form-sec label {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.form-sec button {
+    display: block;
+    padding: 20px 200px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-sec button:hover {
+    background-color: aqua;
+}
+
+input::placeholder {
+    padding-left: 32px;
+}
+
+textarea {
+    padding-top: 20px;
+    padding-left: 32px;
+}
+

@@ -1,0 +1,75 @@
+.contact-section {
+  display: flex;
+  max-width: 1140px;
+  margin-left: 150px;
+  margin-top: 92px;
+  
+  padding: 40px 60px;
+  
+  gap: 115px;
+}
+
+.contact-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.contact-left h1 {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 18px;
+  font-weight:600px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-family: Inter;
+}
+
+.contact-form input {
+  height: 70px;
+  padding: 20x 32px;
+  margin-bottom: 24px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 20px;
+  resize: vertical;
+  background-color: white;
+  color: #111827;
+  font-family: Inter;
+}
+.contact-form textarea{
+  height: 200px;
+  padding: 20x 32px;
+  margin-bottom: 24px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 20px;
+  resize: vertical;
+  background-color: white;
+  color: #111827;
+  font-family: Inter;
+
+}
+.signup-btn{
+     background-color: #4E47FF;
+     color: #FFFFFF;
+     font-weight:bold ;
+     padding:12px 36px;
+     font: 16px;
+     border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    padding: 19px 101px 19px 101px;
+
+     
+
+}

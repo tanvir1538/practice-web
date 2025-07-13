@@ -1,0 +1,35 @@
+.foot {
+  max-width: 1440px;
+  height: 300px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin-top: 100px; 
+}
+
+.logo-text {
+  font-size: 100px;
+  font-weight: 900;
+
+
+margin: 0;
+padding: 0;
+  color: #4E47FF; 
+  
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #8987A1;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+ 
+}
+.nav-links a{
+  text-decoration:none;
+  color: rgb(137, 135, 161);
+}

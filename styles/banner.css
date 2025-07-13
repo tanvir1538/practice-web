@@ -1,0 +1,57 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner button {
+    margin-top: 15px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font: 16px;
+    border-radius: 10px;
+    
+    
+    width: 174px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 36px 12px 36px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+
+}
+
+.banner button:hover {
+    background-color: aqua;
+}
+
+.banner h1 {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 37;
+    margin: 37px 0px;
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    text-align: center;
+}
